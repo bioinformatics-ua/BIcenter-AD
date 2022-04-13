@@ -1,0 +1,927 @@
+[0m[[0minfo[0m] [0mUpdating {file:/opt/BIcenter/project/}bicenter-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#bicenter-build;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#bicenter-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#bicenter-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.6.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#sbt-plugin;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.play#sbt-plugin;2.6.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml (2.6.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.6.5!ivy.xml(ivy.original) (2692ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#sbt-plugin;2.6.5 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#sbt-routes-compiler_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom (2.6.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.6.5!sbt-routes-compiler_2.10.pom(pom.original) (101ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.6.5/jars/sbt-routes-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.6.5/sbt-routes-compiler_2.10-2.6.5.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.7] org.scala-lang#scala-library;2.10.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#twirl-api_2.10;1.3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#twirl-api_2.10;1.3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#twirl-api_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom (1.3.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.3.4!twirl-api_2.10.pom(pom.original) (110ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.3.4/jars/twirl-api_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.3.4/twirl-api_2.10-1.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#twirl-api_2.10;1.3.4 in maven-central[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.10;1.3.4->org.scala-lang#scala-library;2.10.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.10;1.3.4->org.scala-lang#scala-library;2.10.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.10;1.3.4->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.10;1.3.4->org.scala-lang#scala-library;2.10.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: commons-io#commons-io;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for commons-io#commons-io;2.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom (2.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.5!commons-io.pom(pom.original) (124ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;39 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;39 {}[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;39 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;39 {}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for org.apache.commons#commons-parent;39[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom (39)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;39!commons-parent.pom(pom.original) (130ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;16 {}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for org.apache#apache;16[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom (16)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (101ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/root/.m2/repository/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/releases/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/releases/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://public.nexus.pentaho.org/content/groups/omni/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://public.nexus.pentaho.org/content/groups/omni/org/apache/apache/16/apache-16.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/root/.m2/repository/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/39/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://public.nexus.pentaho.org/content/groups/omni/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://public.nexus.pentaho.org/content/groups/omni/org/apache/commons/commons-parent/39/commons-parent-39.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.5 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->com.typesafe.play#twirl-api_2.10;1.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-routes-compiler_2.10;2.6.5->commons-io#commons-io;2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#sbt-routes-compiler_2.10;2.6.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#run-support_2.10;2.6.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#run-support_2.10;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#run-support_2.10;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#run-support_2.10;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#run-support_2.10;2.6.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#run-support_2.10;2.6.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom (2.6.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#run-support_2.10;2.6.5!run-support_2.10.pom(pom.original) (114ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/run-support_2.10/2.6.5/jars/run-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.10/2.6.5/run-support_2.10-2.6.5.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#run-support_2.10;2.6.5 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#run-support_2.10;2.6.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#run-support_2.10;2.6.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#build-link;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#build-link;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#build-link;2.6.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom (2.6.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#build-link;2.6.5!build-link.pom(pom.original) (114ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.6.5/jars/build-link.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.6.5/build-link-2.6.5.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#build-link;2.6.5 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.6.5->com.typesafe.play#play-exceptions;2.6.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-exceptions;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.6.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-exceptions;2.6.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#play-exceptions;2.6.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom (2.6.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.6.5!play-exceptions.pom(pom.original) (117ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-exceptions/2.6.5/jars/play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.6.5/play-exceptions-2.6.5.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-exceptions;2.6.5 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.6.5->com.typesafe.play#play-exceptions;2.6.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.6.5->com.typesafe.play#play-exceptions;2.6.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.6.5->com.typesafe.play#play-exceptions;2.6.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lightbend.play#play-file-watch_2.10;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lightbend.play#play-file-watch_2.10;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lightbend.play#play-file-watch_2.10;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lightbend.play#play-file-watch_2.10;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.lightbend.play#play-file-watch_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom (1.0.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lightbend.play#play-file-watch_2.10;1.0.0!play-file-watch_2.10.pom(pom.original) (120ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/play-file-watch_2.10/1.0.0/jars/play-file-watch_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.10/1.0.0/play-file-watch_2.10-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.lightbend.play#play-file-watch_2.10;1.0.0 in maven-central[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->org.scala-lang#scala-library;2.10.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.lightbend.play#jnotify;0.94-play-2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lightbend.play#jnotify;0.94-play-2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lightbend.play#jnotify;0.94-play-2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.lightbend.play#jnotify;0.94-play-2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lightbend.play#jnotify;0.94-play-2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.lightbend.play#jnotify;0.94-play-2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom (0.94-play-2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lightbend.play#jnotify;0.94-play-2!jnotify.pom(pom.original) (117ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.play/jnotify/0.94-play-2/jars/jnotify.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lightbend/play/jnotify/0.94-play-2/jnotify-0.94-play-2.jar[0m
+[0m[[0mdebug[0m] [0m	found com.lightbend.play#jnotify;0.94-play-2 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.lightbend.play#jnotify;0.94-play-2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.github.pathikrit#better-files_2.10;2.14.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.github.pathikrit#better-files_2.10;2.14.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.pathikrit#better-files_2.10;2.14.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.github.pathikrit#better-files_2.10;2.14.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.pathikrit#better-files_2.10;2.14.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.github.pathikrit#better-files_2.10;2.14.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom (2.14.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.pathikrit#better-files_2.10;2.14.0!better-files_2.10.pom(pom.original) (128ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.pathikrit/better-files_2.10/2.14.0/jars/better-files_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.10/2.14.0/better-files_2.10-2.14.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.github.pathikrit#better-files_2.10;2.14.0 in maven-central[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.github.pathikrit#better-files_2.10;2.14.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.pathikrit#better-files_2.10;2.14.0->org.scala-lang#scala-library;2.10.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.pathikrit#better-files_2.10;2.14.0->org.scala-lang#scala-library;2.10.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->org.scala-lang#scala-library;2.10.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.lightbend.play#jnotify;0.94-play-2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.lightbend.play#jnotify;0.94-play-2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.github.pathikrit#better-files_2.10;2.14.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lightbend.play#play-file-watch_2.10;1.0.0->com.github.pathikrit#better-files_2.10;2.14.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.pathikrit#better-files_2.10;2.14.0->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.pathikrit#better-files_2.10;2.14.0->org.scala-lang#scala-library;2.10.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->org.scala-lang#scala-library;2.10.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.typesafe.play#build-link;2.6.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#run-support_2.10;2.6.5->com.lightbend.play#play-file-watch_2.10;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.play#run-support_2.10;2.6.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe#config;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.1 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.3.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe#config;1.3.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom (1.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.3.1!config.pom(pom.original) (109ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.1 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe#config;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe#config;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe#config;1.3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->org.slf4j#slf4j-simple;1.7.25 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-simple;1.7.25 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-simple;1.7.25 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for org.slf4j#slf4j-simple;1.7.25[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom (1.7.25)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.25!slf4j-simple.pom(pom.original) (123ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.25 {}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.25 {}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (1.7.25)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.25!slf4j-parent.pom(pom.original) (129ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/root/.m2/repository/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.25/jars/slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://public.nexus.pentaho.org/content/groups/omni/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://public.nexus.pentaho.org/content/groups/omni/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-simple/1.7.25/jars/slf4j-simple.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-simple;1.7.25 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->org.slf4j#slf4j-simple;1.7.25 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->org.slf4j#slf4j-simple;1.7.25 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: MergedDescriptors(dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.slf4j#slf4j-api;1.7.25 {test=[runtime(*), master(compile)]})[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: MergedDescriptors(dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: org.slf4j#slf4j-api;1.7.25 {test=[runtime(*), master(compile)]})[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for org.slf4j#slf4j-api;1.7.25[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (1.7.25)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.pom(pom.original) (116ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.25 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.25 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.25[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.25 in maven-central[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-simple;1.7.25->org.slf4j#slf4j-api;1.7.25 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->org.slf4j#slf4j-simple;1.7.25 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.6.5->com.typesafe.sbt#sbt-twirl;1.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-twirl;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-twirl;1.3.4 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-twirl;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbt#sbt-twirl;1.3.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-twirl;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-twirl;1.3.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml (1.3.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-twirl;1.3.4!ivy.xml(ivy.original) (2708ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-twirl;1.3.4 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-twirl;1.3.4->com.typesafe.play#twirl-compiler_2.10;1.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.7 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.10;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#twirl-compiler_2.10;1.3.4 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-compiler_2.10;1.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#twirl-compiler_2.10;1.3.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-releases-repo: no ivy file found for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugins-repo: no ivy file found for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: found md file for com.typesafe.play#twirl-compiler_2.10;1.3.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom (1.3.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	maven-central: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.3.4/twirl-compiler_2.10-1.3.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.3.4!twirl-compiler_2.10.pom(pom.original) (102ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.3.4/jars/twirl-compiler_2.10.jar[0m

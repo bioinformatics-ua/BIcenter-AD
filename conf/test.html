@@ -1,0 +1,388 @@
+<html style="height: auto;"><head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <title>BIcenter</title>
+
+        <!-- Boostrap Select2 -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/select2/select2.min.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/font-awesome/css/font-awesome.min.css">
+        <!-- PNotify -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/pnotify/pnotify.css">
+        <link rel="stylesheet" media="screen" href="/assets/lib/pnotify/pnotify.nonblock.css">
+        <!-- query-builder -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/jQuery-QueryBuilder/css/query-builder.default.min.css">
+
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+
+        <!--DataTable dependencies -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/datatables/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" media="screen" href="/assets/lib/datatables/buttons.dataTables.min.css">
+
+        <!-- jQuery UI -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/jquery-ui/jquery-ui.css">
+
+        <!-- Boostrap DateTime-Picker -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+
+        <!-- iCheck -->
+        <link rel="stylesheet" media="screen" href="/assets/lib/iCheck/all.css">
+        <link rel="stylesheet" media="screen" href="/assets/lib/iCheck/square/blue.css">
+
+        <!-- Main CSS: Bootstrap + AdminLTE + Custom css -->
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.min.css">
+    <link rel="stylesheet" href="/assets/lib/mxgraph2/css/common.css" charset="ISO-8859-1" type="text/css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="/assets/javascripts/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jsRoutes" src="/assets/javascripts/jsroutes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="messages" src="/assets/javascripts/messages.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="HeaderController" src="/assets/javascripts/header/headerController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="StepController" src="/assets/javascripts/step/stepController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="StepModalController" src="/assets/javascripts/step/stepModalController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="SidebarController" src="/assets/javascripts/sidebar/sidebarController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="BreadcrumbController" src="/assets/javascripts/breadcrumb/breadcrumbController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Controller" src="/assets/javascripts/core/controller.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="HeaderView" src="/assets/javascripts/header/headerView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Task" src="/assets/javascripts/services/task.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Execution" src="/assets/javascripts/services/execution.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Alert" src="/assets/javascripts/lib/alert.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="User" src="/assets/javascripts/services/user.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="StepView" src="/assets/javascripts/step/stepView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Step" src="/assets/javascripts/services/step.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="async" src="/assets/javascripts/lib/async.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="StepModalView" src="/assets/javascripts/step/stepModalView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="SidebarView" src="/assets/javascripts/sidebar/sidebarView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="BreadcrumbView" src="/assets/javascripts/breadcrumb/breadcrumbView.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="View" src="/assets/javascripts/core/view.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pnotify" src="/assets/javascripts/../lib/pnotify/pnotify.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pnotify.nonblock" src="/assets/javascripts/../lib/pnotify/pnotify.nonblock.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="query-builder" src="/assets/javascripts/../lib/jQuery-QueryBuilder/js/query-builder.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="select2" src="/assets/javascripts/../lib/select2/select2.full.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Modal" src="/assets/javascripts/core/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="/assets/javascripts/../lib/jquery-ui/jquery-ui.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="handlebarsHelpers" src="/assets/javascripts/core/handlebarsHelpers.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="datatables.buttons" src="/assets/javascripts/../lib/datatables/dataTables.buttons.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dot/doT" src="/assets/javascripts/../lib/doT/doT.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-extendext" src="/assets/javascripts/../lib/jquery-extendext/jQuery.extendext.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootbox" src="/assets/javascripts/lib/bootbox.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="md5" src="/assets/javascripts/../lib/md5/md5.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="handlebars.runtime" src="/assets/javascripts/../lib/handlebars/handlebars.runtime.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="datatables.net" src="/assets/javascripts/../lib/datatables/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates" src="/assets/javascripts/../templates.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dataTables" src="/assets/javascripts/../lib/datatables/dataTables.bootstrap.min.js"></script></head>
+    <body style="min-height:100%;height:auto;" class="sidebar-mini skin-darkblue-light fixed">
+        <script type="text/javascript" src="/assets/lib/mxgraph2/js/mxClient.js"></script>
+        <script type="text/javascript" src="/assets/editor/editor.js"></script>
+        <script type="text/javascript" src="/assets/editor/graph.js"></script>
+
+        <div class="wrapper" style="height: auto;">
+            <div module="HeaderModule">
+            <style>
+    .dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu>a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #ccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover>a:after {
+        border-left-color: #fff;
+    }
+</style>
+<header class="main-header">
+        <!-- Logo -->
+    <a href="/" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>BMD</b></span>
+            <!-- logo for regular state and mobile devices -->
+        <div class="logo-lg">
+            <img src="/assets//images/logo/logo_bi_center_white.png" alt="" style="height:85%;width:85%;">
+        </div>
+    </a>
+
+    <nav class="navbar navbar-static-top" controller="HeaderController"><ul class="nav navbar-nav">
+
+</ul>
+
+<div class="navbar-custom-menu">
+	<ul class="nav navbar-nav">
+		<li class="dropdown notifications-menu">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				<i class="fa fa-bell-o"></i>
+				<span class="label label-warning">0</span>
+			</a>
+			<ul class="dropdown-menu">
+				<li>
+					<!-- inner menu: contains the actual data -->
+					<ul class="menu">
+
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li class="dropdown user user-menu">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+				<i class="fa fa-user fa-fw"></i>
+				<span class="hidden-xs">Demo</span>
+			</a>
+			<ul class="dropdown-menu">
+				<!-- User image -->
+				<!--<li class="user-header">-->
+				<!--<p>Demo<small>demo@ua.pt</small></p>-->
+				<!--</li>-->
+				<li class="user-header">
+					<img src="https://www.gravatar.com/avatar/3b99bbbeac3648bf10b4fa8dc81ee551">
+					<p>Demo<small>demo@ua.pt</small></p>
+				</li>
+				<!-- Menu Footer-->
+				<li class="user-footer">
+					<!--<div class="pull-left">-->
+					<!--<a href="#" class="btn btn-default btn-flat">Profile</a>-->
+					<!--</div>-->
+					<div class="pull-right">
+						<a href="/logout" class="btn btn-default btn-flat">Sign out</a>
+					</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</nav>
+</header>
+
+            </div>
+
+			<aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: 229px; height: 670px;"><section class="sidebar" module="SidebarModule" style="height: 670px; overflow: hidden; width: 229px;"><div controller="SidebarController" controller-init="institutionId:6,graphId:3,stepId:18,section:configure"><ul class="sidebar-menu" data-widget="tree">
+	<div class="sidetoolbar">
+		<div class="sidetoolbar-group">
+			<button class="btn btn-app btn-sidetoolbar selected">
+				<i class="fa fa-wrench"></i>
+				Components
+			</button>
+		</div>
+	</div>
+</ul>
+
+<ul class="sidebar-menu" data-widget="tree">
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Input</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="RowGenerator" data-name="Generate Rows" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/RowGenerator.svg"> Generate Rows
+						</a>
+					</li>
+					<li data-shortname="TableInput" data-name="Table Input" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/TableInput.svg"> Table Input
+						</a>
+					</li>
+					<li data-shortname="CSVInput" data-name="CSV File Input" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/CSVInput.svg"> CSV File Input
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Output</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="TableOutput" data-name="Table Output" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/TableOutput.svg"> Table Output
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Transform</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="Sequence" data-name="Add Sequence" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/Sequence.svg"> Add Sequence
+						</a>
+					</li>
+					<li data-shortname="CheckSum" data-name="Add a Checksum" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/CheckSum.svg"> Add a Checksum
+						</a>
+					</li>
+					<li data-shortname="SelectValues" data-name="Select Values" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/SelectValues.svg"> Select Values
+						</a>
+					</li>
+					<li data-shortname="SortRows" data-name="Sort Rows" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/SortRows.svg"> Sort Rows
+						</a>
+					</li>
+					<li data-shortname="ValueMapper" data-name="Usagi Mapper" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/ValueMapper.svg"> Usagi Mapper
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Flow</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="FilterRows" data-name="Filter Rows" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/FilterRows.svg"> Filter Rows
+						</a>
+					</li>
+					<li data-shortname="Dummy" data-name="Dummy (do nothing)" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/Dummy.svg"> Dummy (do nothing)
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Joins</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="MergeJoin" data-name="Merge Join" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/MergeJoin.svg"> Merge Join
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Statistics</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="GroupBy" data-name="Group By" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/GroupBy.svg"> Group By
+						</a>
+					</li>
+			</ul>
+		</li>
+		<li class="treeview menu" onclick="this.classList.toggle('menu-open');this.classList.toggle('menu');">
+			<a>
+				<i class="fa fa-folder"></i> <span>Scripting</span>
+				<span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+			</a>
+			<ul class="treeview-menu">
+					<li data-shortname="ExecSQL" data-name="Execute SQL script" style="cursor: pointer;" class="ui-draggable ui-draggable-handle">
+						<a>
+							<img src="/image/small/ExecSQL.svg"> Execute SQL script
+						</a>
+					</li>
+			</ul>
+		</li>
+</ul>
+</div></section><div class="slimScrollBarY" style="background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 670px;"></div><div class="slimScrollRailY" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+        <!-- /.sidebar -->
+</aside>
+
+            <div class="content-wrapper" style="min-height: 689px;">
+                <div module="BreadcrumbModule"><div controller="BreadcrumbController" controller-init="institutionId:6,graphId:3,stepId:18,section:configure"><section class="content-header">
+    <h1>&nbsp;</h1>
+    <ol class="breadcrumb"><li style="float: left"><i class="fa fa-exchange"></i> <a view-router="" href="/institution/6/graph/3/select">Weather</a></li>
+
+		<li id="lastChild"><a href="javascript:void(0)"><i class="fa fa-hospital-o"></i> Institutions</a></li>
+	<li>Edit</li><li style="float: left"><i class="fa fa-circle-o"></i> <a view-router="" href="/institution/6/graph/3/step/18/configure">Filter Rows</a></li></ol>
+
+</section>
+</div></div>
+                <section class="content"> 
+    <div module="MainModule"><div controller="StepController" controller-init="institutionId:6,graphId:3,stepId:18,section:configure"><div id="FilterRows" class="box box-default">
+    <div class="box-header with-border">
+        <h3 class="box-title">Filter Rows</h3>
+    </div>
+    <div class="box-body">
+        <form class="form-horizontal" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="41" class="col-sm-2 control-label">Step Name:</label>
+                    <div class="col-sm-5">
+                            <input class="form-control" name="41" value="">
+                    </div>
+                </div>
+            <div class="form-group">
+                <label for="42" class="col-sm-2 control-label">Send 'true' data to step:</label>
+                <div class="col-sm-5">
+                    <select name="42" class="form-control" style="width: 100%;" tabindex="-1" aria-hidden="true">
+
+
+
+                                    <option>Sort by Date</option>
+                                    <option>Sunny Days</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="43" class="col-sm-2 control-label">Send 'false' data to step:</label>
+                <div class="col-sm-5">
+                    <select name="43" class="form-control" style="width: 100%;" tabindex="-1" aria-hidden="true">
+
+
+
+                                    <option>Sort by Date</option>
+                                    <option>Sunny Days</option>
+
+                    </select>
+                </div>
+            </div>
+                <div class="col-md-12 col-lg-8 col-lg-offset-1">
+                    <label for="44">Condition:</label>
+                    <div class="query-builder form-inline" id="qb_67856">
+  <div id="builder-basic" class="query-builder form-inline"><div id="builder-basic_group_0" class="rules-group-container">   <div class="rules-group-header">     <div class="btn-group pull-right group-actions">       <button type="button" class="btn btn-xs btn-success" data-add="rule">         <i class="glyphicon glyphicon-plus"></i> Add rule       </button>                <button type="button" class="btn btn-xs btn-success" data-add="group">           <i class="glyphicon glyphicon-plus-sign"></i> Add group         </button>                   </div>     <div class="btn-group group-conditions">                <label class="btn btn-xs btn-primary active disabled">           <input type="radio" name="builder-basic_group_0_cond" value="AND" disabled=""> OR         </label>                <label class="btn btn-xs btn-primary disabled">           <input type="radio" name="builder-basic_group_0_cond" value="OR" disabled=""> AND         </label><label class="btn btn-xs btn-primary disabled">           <input type="radio" name="builder-basic_group_0_cond" value="OR" disabled=""> OR NOT         </label><label class="btn btn-xs btn-primary disabled">           <input type="radio" name="builder-basic_group_0_cond" value="OR" disabled=""> AND NOT         </label><label class="btn btn-xs btn-primary disabled">           <input type="radio" name="builder-basic_group_0_cond" value="OR" disabled=""> XOR         </label>            </div>            <div class="error-container" data-toggle="tooltip"><i class="glyphicon glyphicon-warning-sign"></i></div>        </div>   <div class="rules-group-body">     <div class="rules-list"><div id="builder-basic_rule_5" class="rule-container">   <div class="rule-header">     <div class="btn-group pull-right rule-actions">       <button type="button" class="btn btn-xs btn-danger" data-delete="rule">         <i class="glyphicon glyphicon-remove"></i> Delete       </button>     </div>   </div>        <div class="error-container" data-toggle="tooltip"><i class="glyphicon glyphicon-warning-sign"></i></div>      <div class="rule-filter-container"> <select class="form-control" name="builder-basic_rule_5_filter">        <option value="-1">------</option>                <option value="name">Value</option>             <option value="category">Category</option>             <option value="in_stock">In stock</option>             <option value="price">Price</option>             <option value="id">Identifier</option>       </select></div>   <div class="rule-operator-container">  <select class="form-control " name="builder-basic_rule_5_operator">             <option value="equal">&gt;</option>             <option value="not_equal">not equal</option>             <option value="in">in</option>             <option value="not_in">not in</option>             <option value="begins_with">begins with</option>             <option value="not_begins_with">doesn't begin with</option>             <option value="contains">contains</option>             <option value="not_contains">doesn't contain</option>             <option value="ends_with">ends with</option>             <option value="not_ends_with">doesn't end with</option>             <option value="is_empty">is empty</option>             <option value="is_not_empty">is not empty</option>             <option value="is_null">is null</option>             <option value="is_not_null">is not null</option>       </select></div>   <div class="rule-value-container"><input class="form-control" type="text" name="builder-basic_rule_5_value_0"></div> </div></div>   </div> </div></div>
+</div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button id="senseBtn" type="button" class="btn btn-success">Positive</button>
+                    </div>
+                </div>
+        </form>
+    </div>
+    <div class="box-footer">
+        <button type="submit" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn bg-wet-asphalt margin pull-right">Submit</button>
+    </div>
+</div></div><div controller="StepModalController" controller-init="institutionId:6,graphId:3,stepId:18,section:configure"></div></div>
+ </section>
+            </div>
+
+            <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        <b>Version</b>
+        1.0.0-SNAPSHOT
+    </div>
+    <strong>Copyright © <script>document.write(new Date().getFullYear());</script>2021.</strong> All rights reserved.
+</footer>
+        </div>
+
+        <script type="text/javascript" data-main="/assets/javascripts/main" src="/assets/lib/requirejs/require.min.js"></script>
+    
+
+
+<div class="bootbox modal fade" tabindex="-1" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="bootbox-close-button close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title">Edit Entry</h4></div><div class="modal-body"><div class="bootbox-body"><div>
+</div></div></div><div class="modal-footer"><a class="btn btn-success" href="javascript:void(0)"><i class="fa fa-check-circle"></i> Save</a><button data-bb-handler="close" type="button" class="btn btn-default"><i class="fa fa-times-circle"></i> Close</button></div></div></div></div></body></html>

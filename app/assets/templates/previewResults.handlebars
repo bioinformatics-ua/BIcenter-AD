@@ -1,0 +1,66 @@
+<div class="box box-default">
+    <div class="box-header with-border">
+        <h3 view-element="preview_title" class="box-title"></h3>
+    </div>
+
+    <div class="box-body">
+        <form class="form-horizontal">
+            <!-- Custom Tabs -->
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab_1" data-toggle="tab" aria-expanded="true">Log</a></li>
+                    <li class=""><a href="#tab_2" data-toggle="tab" aria-expanded="false">Step Measures</a></li>
+                    <li class=""><a href="#tab_3" data-toggle="tab" aria-expanded="false">Preview Data</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab_1">
+                        <textarea view-element="preview_log" class="form-control" rows="20" placeholder="Enter ..."></textarea>
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="tab_2">
+                        <table view-element="steps_measures" class="table table-bordered">
+
+                        </table>
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="tab_3">
+                        <table view-element="preview_table" border="0" style="height:100%;width:100%;">
+                            <tr>
+                                <td id="toolbar" style="display:none;" valign="top">
+                                    <!-- Toolbar Here -->
+                                </td>
+                                <td id="board" view-element="preview_board" valign="top" style="height:52vh;width:100%;border-width:1px;border-style:solid;border-color:black;">
+                                    <div view-element="preview_graph">
+                                        <!-- Graph here -->
+                                    </div>
+                                    <textarea id="xml" view-element="xml" style="height:100%;width:100%;display:none;border-style:none;"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div view-element="preview_data" class="box box-default" style="display:none">
+                            <div class="box-header with-border">
+                                <h3 view-element="preview_data_title" class="box-title"></h3>
+                            </div>
+
+                            <div class="box-body">
+                                <table view-element="data_table" class="table table-bordered">
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+            </div>
+            <!-- nav-tabs-custom -->
+        </form>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+        <button view-click="controller.cancelClick()" type="submit" class="btn btn-default">Cancel</button>
+        <button view-click="controller.cancelClick()" type="submit" class="btn bg-wet-asphalt margin pull-right">Ok</button>
+    </div>
+    <!-- /.box-footer -->
+</div>

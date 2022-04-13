@@ -1,0 +1,920 @@
+{
+  "componentCategories": [
+    {
+      "name": "Input",
+      "components": [
+        {
+          "name": "RowGenerator",
+          "description": "Generate Rows",
+          "shortName": "rowgen",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Limit",
+              "shortName": "rowLimit",
+              "type": "number"
+            },
+            {
+              "name": "Never stop generating rows.",
+              "shortName": "neverEnding",
+              "type": "checkbox"
+            },
+            {
+              "name": "Rows",
+              "shortName": "fields",
+              "type": "table",
+              "componentMetadatas": [
+                {
+                  "name": "name",
+                  "shortName": "fieldName"
+                },
+                {
+                  "name": "type",
+                  "shortName": "fieldType"
+                },
+                {
+                  "name": "format",
+                  "shortName": "fieldFormat"
+                },
+                {
+                  "name": "length",
+                  "shortName": "fieldLength"
+                },
+                {
+                  "name": "precision",
+                  "shortName": "fieldPrecision"
+                },
+                {
+                  "name": "currency",
+                  "shortName": "currency"
+                },
+                {
+                  "name": "decimal",
+                  "shortName": "decimal"
+                },
+                {
+                  "name": "grouping",
+                  "shortName": "group"
+                },
+                {
+                  "name": "value",
+                  "shortName": "value"
+                },
+                {
+                  "name": "Set empty String?",
+                  "shortName": "setEmptyString"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TableInput",
+          "description": "Table Input",
+          "shortName": "tableInput",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Connection Name",
+              "shortName": "databaseMeta",
+              "type": "select",
+              "source": "dataSources"
+            },
+            {
+              "name": "SQL Statement",
+              "shortName": "sQL",
+              "type": "textarea"
+            }
+          ]
+        },
+        {
+          "name": "CSVInput",
+          "description": "CSV File Input",
+          "shortName": "csvInput",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "File Name",
+              "shortName": "fileName",
+              "type": "fileinput"
+            },
+            {
+              "name": "Delimiter",
+              "shortName": "delimiter",
+              "type": "input"
+            },
+            {
+              "name": "Enclosure",
+              "shortName": "enclosure",
+              "type": "input"
+            },
+            {
+              "name": "NIO Buffer Size",
+              "shortName": "bufferSize",
+              "type": "number"
+            },
+            {
+              "name": "File Encoding",
+              "shortName": "encoding",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "UTF-8",
+                  "name": "UTF-8"
+                },
+                {
+                  "value": "ANSI",
+                  "name": "ANSI"
+                }
+              ]
+            },
+            {
+              "name": "Lazy Conversion?",
+              "shortName": "lazyConversionActive",
+              "type": "checkbox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Output",
+      "components": [
+        {
+          "name": "TableOutput",
+          "description": "Table Output",
+          "shortName": "tableOutput",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Connection Name",
+              "shortName": "databaseMeta",
+              "type": "select",
+              "source": "dataSources"
+            },
+            {
+              "name": "Target Table",
+              "shortName": "tableName",
+              "type": "input"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transform",
+      "components": [
+        {
+          "name": "Sequence",
+          "description": "Add Sequence",
+          "shortName": "sequence",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Value Name",
+              "shortName": "valuename",
+              "type": "input"
+            },
+            {
+              "name": "Use a database to generate a sequence.",
+              "shortName": "useDatabase",
+              "type": "checkbox"
+            },
+            {
+              "name": "Use a counter to generate the sequence.",
+              "shortName": "useCounter",
+              "type": "checkbox"
+            },
+            {
+              "name": "Counter Name (optional)",
+              "shortName": "counterName",
+              "type": "input"
+            },
+            {
+              "name": "Start Value",
+              "shortName": "startAt",
+              "type": "number"
+            },
+            {
+              "name": "Increment",
+              "shortName": "incrementBy",
+              "type": "number"
+            },
+            {
+              "name": "Maximum Value",
+              "shortName": "maxValue",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "name": "CheckSum",
+          "description": "Add a Checksum",
+          "shortName": "checksum",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Checksum Type",
+              "shortName": "checkSumType",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "0",
+                  "name": "CRC 32"
+                },
+                {
+                  "value": "1",
+                  "name": "ADLER 32"
+                },
+                {
+                  "value": "2",
+                  "name": "MD5"
+                },
+                {
+                  "value": "3",
+                  "name": "SHA-1"
+                }
+              ]
+            },
+            {
+              "name": "Result Type",
+              "shortName": "resultType",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "0",
+                  "name": "String"
+                },
+                {
+                  "value": "1",
+                  "name": "Hexadecimal"
+                },
+                {
+                  "value": "2",
+                  "name": "Binary"
+                }
+              ]
+            },
+            {
+              "name": "Result Field",
+              "shortName": "resultfieldName",
+              "type": "input"
+            },
+            {
+              "name": "Compatibility Mode.",
+              "shortName": "compatibilityMode",
+              "type": "checkbox"
+            },
+            {
+              "name": "Fields used on checksum",
+              "shortName": "fieldName",
+              "type": "multi-select",
+              "source": "inputFields"
+            }
+          ]
+        },
+        {
+          "name": "SelectValues",
+          "description": "Select Values",
+          "shortName": "selectValues",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Select & Alter",
+              "shortName": "select",
+              "type": "table",
+              "componentMetadatas": [
+                {
+                  "name": "Field Name",
+                  "shortName": "selectName",
+                  "type": "select",
+                  "source": "inputFields"
+                },
+                {
+                  "name": "Rename To",
+                  "shortName": "selectRename"
+                },
+                {
+                  "name": "Length",
+                  "shortName": "selectLength",
+                  "source": "inputLength@selectName"
+                },
+                {
+                  "name": "Precision",
+                  "shortName": "selectPrecision",
+                  "source": "inputPrecision@selectName"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SortRows",
+          "description": "Sort Rows",
+          "shortName": "sortRows",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Fields",
+              "shortName": "fields",
+              "type": "table",
+              "componentMetadatas": [
+                {
+                  "name": "Field Name",
+                  "shortName": "fieldName",
+                  "type": "select",
+                  "source": "inputFields"
+                },
+                {
+                  "name": "Ascending",
+                  "shortName": "ascending"
+                },
+                {
+                  "name": "Case Sensitive Compare?",
+                  "shortName": "caseSensitive"
+                },
+                {
+                  "name": "Presorted?",
+                  "shortName": "preSortedField"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ValueMapper",
+          "description": "Usagi Mapper",
+          "shortName": "valueMapper",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Fields to use",
+              "shortName": "fieldToUse",
+              "type": "select",
+              "source": "inputFields"
+            },
+            {
+              "name": "USAGI File Name",
+              "shortName": "usagiFile",
+              "type": "fileinput"
+            },
+            {
+              "name": "Input Column",
+              "shortName": "inputColumn",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "1",
+                  "name": "sourceName"
+                },
+                {
+                  "value": "0",
+                  "name": "sourceCode"
+                },
+                {
+                  "value": "2",
+                  "name": "sourceFrequency"
+                },
+                {
+                  "value": "3",
+                  "name": "sourceAutoAssignedConceptIds"
+                },
+                {
+                  "value": "4",
+                  "name": "matchScore"
+                },
+                {
+                  "value": "5",
+                  "name": "targetConceptId"
+                },
+                {
+                  "value": "6",
+                  "name": "targetConceptName"
+                },
+                {
+                  "value": "7",
+                  "name": "targetVocabularyId"
+                },
+                {
+                  "value": "8",
+                  "name": "targetDomainId"
+                },
+                {
+                  "value": "9",
+                  "name": "targetStandardConcept"
+                },
+                {
+                  "value": "10",
+                  "name": "targetChildCount"
+                },
+                {
+                  "value": "11",
+                  "name": "targetParentCount"
+                },
+                {
+                  "value": "12",
+                  "name": "targetChildCount"
+                },
+                {
+                  "value": "13",
+                  "name": "targetConceptClassId"
+                },
+                {
+                  "value": "14",
+                  "name": "targetConceptCode"
+                },
+                {
+                  "value": "15",
+                  "name": "targetValidStartDate"
+                },
+                {
+                  "value": "16",
+                  "name": "targetValidEndDate"
+                },
+                {
+                  "value": "17",
+                  "name": "targetInvalidReason"
+                }
+              ]
+            },
+            {
+              "name": "Output Column",
+              "shortName": "outputColumn",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "5",
+                  "name": "targetConceptId"
+                },
+                {
+                  "value": "0",
+                  "name": "sourceCode"
+                },
+                {
+                  "value": "1",
+                  "name": "sourceName"
+                },
+                {
+                  "value": "2",
+                  "name": "sourceFrequency"
+                },
+                {
+                  "value": "3",
+                  "name": "sourceAutoAssignedConceptIds"
+                },
+                {
+                  "value": "4",
+                  "name": "matchScore"
+                },
+                {
+                  "value": "6",
+                  "name": "targetConceptName"
+                },
+                {
+                  "value": "7",
+                  "name": "targetVocabularyId"
+                },
+                {
+                  "value": "8",
+                  "name": "targetDomainId"
+                },
+                {
+                  "value": "9",
+                  "name": "targetStandardConcept"
+                },
+                {
+                  "value": "10",
+                  "name": "targetChildCount"
+                },
+                {
+                  "value": "11",
+                  "name": "targetParentCount"
+                },
+                {
+                  "value": "12",
+                  "name": "targetChildCount"
+                },
+                {
+                  "value": "13",
+                  "name": "targetConceptClassId"
+                },
+                {
+                  "value": "14",
+                  "name": "targetConceptCode"
+                },
+                {
+                  "value": "15",
+                  "name": "targetValidStartDate"
+                },
+                {
+                  "value": "16",
+                  "name": "targetValidEndDate"
+                },
+                {
+                  "value": "17",
+                  "name": "targetInvalidReason"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flow",
+      "components": [
+        {
+          "name": "FilterRows",
+          "description": "Filter Rows",
+          "shortName": "filterRows",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Send 'true' data to step",
+              "shortName": "stream0",
+              "type": "select",
+              "source": "outputSteps"
+            },
+            {
+              "name": "Send 'false' data to step",
+              "shortName": "stream1",
+              "type": "select",
+              "source": "outputSteps"
+            },
+            {
+              "name": "Condition",
+              "shortName": "condition",
+              "type": "condition"
+            }
+          ]
+        },
+        {
+          "name": "Dummy",
+          "description": "Dummy (do nothing)",
+          "shortName": "dummy",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Joins",
+      "components": [
+        {
+          "name": "MergeJoin",
+          "description": "Merge Join",
+          "shortName": "mergeJoin",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "First Step",
+              "shortName": "stream0",
+              "type": "select",
+              "source": "inputSteps"
+            },
+            {
+              "name": "Second Step",
+              "shortName": "stream1",
+              "type": "select",
+              "source": "inputSteps"
+            },
+            {
+              "name": "Join Type",
+              "shortName": "joinType",
+              "type": "select",
+              "componentMetadatas": [
+                {
+                  "value": "INNER",
+                  "name": "INNER"
+                },
+                {
+                  "value": "LEFT OUTER",
+                  "name": "LEFT OUTER"
+                },
+                {
+                  "value": "RIGHT OUTER",
+                  "name": "RIGHT OUTER"
+                },
+                {
+                  "value": "FULL OUTER",
+                  "name": "FULL OUTER"
+                }
+              ]
+            },
+            {
+              "name": "Keys",
+              "shortName": "keys",
+              "type": "table",
+              "componentMetadatas": [
+                {
+                  "name": "First Key",
+                  "shortName": "keyFields1",
+                  "source": "inputFields@stream0"
+                },
+                {
+                  "name": "Second Key",
+                  "shortName": "keyFields2",
+                  "source": "inputFields@stream1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "components": [
+        {
+          "name": "GroupBy",
+          "description": "Group By",
+          "shortName": "groupBy",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "The fields that make up the group",
+              "shortName": "groupField",
+              "type": "multi-select",
+              "source": "inputFields"
+            },
+            {
+              "name": "Aggregates",
+              "shortName": "aggregates",
+              "type": "table",
+              "componentMetadatas": [
+                {
+                  "name": "Name",
+                  "shortName": "aggregateField"
+                },
+                {
+                  "name": "Subject",
+                  "shortName": "subjectField",
+                  "type": "select",
+                  "source": "inputFields"
+                },
+                {
+                  "name": "Type",
+                  "shortName": "aggregateType",
+                  "type": "select",
+                  "source": "metadata",
+                  "metadatas": [
+                    {
+                      "value": "1",
+                      "name": "Sum"
+                    },
+                    {
+                      "value": "2",
+                      "name": "Average (Mean)"
+                    },
+                    {
+                      "value": "3",
+                      "name": "Median"
+                    },
+                    {
+                      "value": "4",
+                      "name": "Percentile"
+                    },
+                    {
+                      "value": "5",
+                      "name": "Minimum"
+                    },
+                    {
+                      "value": "6",
+                      "name": "Maximum"
+                    },
+                    {
+                      "value": "7",
+                      "name": "Number of values (N)"
+                    },
+                    {
+                      "value": "8",
+                      "name": "Concatenate strings separated by , (comma)"
+                    },
+                    {
+                      "value": "9",
+                      "name": "First non-null value"
+                    },
+                    {
+                      "value": "10",
+                      "name": "Last non-null value"
+                    },
+                    {
+                      "value": "11",
+                      "name": "First value (including null)"
+                    },
+                    {
+                      "value": "12",
+                      "name": "Last value (including null)"
+                    },
+                    {
+                      "value": "13",
+                      "name": "Cumulative sum (all rows option only!)"
+                    },
+                    {
+                      "value": "14",
+                      "name": "Cumulative average (all rows option only!)"
+                    },
+                    {
+                      "value": "16",
+                      "name": "Standard deviation"
+                    },
+                    {
+                      "value": "16",
+                      "name": "Concatenate strings separated by <Value>: specify the separator in the Value column"
+                    },
+                    {
+                      "value": "17",
+                      "name": "Number of distinct values"
+                    },
+                    {
+                      "value": "18",
+                      "name": "Number of rows (without field argument)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Value",
+                  "shortName": "valueField"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scripting",
+      "components": [
+        {
+          "name": "ExecSQL",
+          "description": "Execute SQL script",
+          "shortName": "ExecSQL",
+          "componentProperties": [
+            {
+              "name": "Step Name",
+              "shortName": "stepName",
+              "type": "input"
+            },
+            {
+              "name": "Connection Name",
+              "shortName": "databaseMeta",
+              "type": "select",
+              "source": "dataSources"
+            },
+            {
+              "name": "SQL Statement",
+              "shortName": "sQL",
+              "type": "textarea"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "operations": [
+    "Add",
+    "Update",
+    "Delete",
+    "Get",
+    "Run"
+  ],
+  "categories": [
+    "Task",
+    "Server",
+    "DataSource",
+    "Institution"
+  ],
+  "roles": [
+    {
+      "name": "Administrator",
+      "permissions": [
+        {
+          "category": "Task",
+          "operations": [
+            "Add",
+            "Update",
+            "Delete",
+            "Get",
+            "Run"
+          ]
+        },
+        {
+          "category": "Server",
+          "operations": [
+            "Add",
+            "Update",
+            "Delete",
+            "Get"
+          ]
+        },
+        {
+          "category": "DataSource",
+          "operations": [
+            "Add",
+            "Update",
+            "Delete",
+            "Get"
+          ]
+        },
+        {
+          "category": "Institution",
+          "operations": [
+            "Add",
+            "Update",
+            "Delete",
+            "Get"
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "name": "Admin",
+      "email": "demo@ua.pt",
+      "password": "Admin",
+      "active": true,
+      "roles": [
+        "Administrator"
+      ]
+    }
+  ],
+  "authentications": [
+    {
+      "type": "LDAP",
+      "hostname": "my-host.com",
+      "port": 636,
+      "baseDN": "dc=my-host,dc=com",
+      "usernameAttributes": "uid",
+      "realnameAttributes": "cn",
+      "roles": [
+        "Administrator"
+      ],
+      "institutions": [
+        "UA",
+        "Demo"
+      ]
+    }
+  ],
+  "institutions": [
+    {
+      "name": "UA"
+    },
+    {
+      "name": "Demo"
+    }
+  ]
+}
